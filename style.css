@@ -45,3 +45,13 @@ margin-top: 40px;
     /* border: solid 1px white; */
     
 }
+
+#listParent{
+    margin-top: 20px;
+}
+
+.card{
+    background-color: bisque;
+    border: solid 1px;
+    margin: 10px 0px;
+}
