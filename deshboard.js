@@ -1,4 +1,4 @@
-
+var mainCard = document.querySelector('.main-card')
 var listParent = document.getElementById("listParent")
 var loginUser;
 
@@ -70,7 +70,7 @@ function addPost(){
     </div>
 </div`
 
-    listParent.innerHTML = postBox + listParent.innerHTML
+    mainCard.innerHTML += postBox
 
 
 var postObject = {
